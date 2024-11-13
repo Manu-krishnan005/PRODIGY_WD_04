@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #252A34;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    margin: 20px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #333333;
+    color: rgb(233, 228, 228);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+#play-again, #mode-select, #player-select {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button{
+    border:3px solid black;
+    margin: auto;
+    color: aqua;
+}
+.hello{
+    margin: 10px;
+    color: white;
+    background-color: aqua;
+}
